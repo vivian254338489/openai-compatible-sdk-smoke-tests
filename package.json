@@ -1,0 +1,37 @@
+{
+  "name": "openai-compatible-sdk-smoke-tests",
+  "version": "1.0.0",
+  "description": "Portable smoke tests for OpenAI-compatible SDK endpoints: model list, chat, embeddings, and streaming.",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "openai-compatible-smoke": "./scripts/check.js"
+  },
+  "scripts": {
+    "check": "node scripts/check.js",
+    "check:offline": "node scripts/check.js --offline",
+    "scan:secrets": "node scripts/scan-secrets.js",
+    "verify": "npm run scan:secrets && npm run check:offline"
+  },
+  "keywords": [
+    "openai-compatible",
+    "openai-sdk",
+    "base-url",
+    "smoke-test",
+    "llm",
+    "chat-completions",
+    "embeddings",
+    "streaming",
+    "sdk-compatibility"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    ".env.example",
+    "docs",
+    "scripts"
+  ]
+}
