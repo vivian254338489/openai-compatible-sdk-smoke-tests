@@ -11,7 +11,8 @@
     "check": "node scripts/check.js",
     "check:offline": "node scripts/check.js --offline",
     "scan:secrets": "node scripts/scan-secrets.js",
-    "verify": "npm run scan:secrets && npm run check:offline"
+    "check:readiness": "node scripts/check-readiness.js",
+    "verify": "npm run scan:secrets && npm run check:offline && npm run check:readiness"
   },
   "keywords": [
     "openai-compatible",
