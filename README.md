@@ -92,6 +92,11 @@ Good search terms this repo is built to answer:
 - [Test Matrix](docs/test-matrix.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [UTM Links](docs/utm-links.md)
+- [Publish Checklist](docs/publish-checklist.md)
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) before suggesting provider notes, compatibility reports, or docs changes. Keep TKEN disclosed as one example endpoint and keep the tests useful for any OpenAI-compatible provider.
 
 ## Safety Notes
 
